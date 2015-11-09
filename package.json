@@ -1,0 +1,29 @@
+{
+  "name": "cubent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha-traceur": "^2.1.0",
+    "should": "^7.1.1",
+    "traceur": "0.0.92",
+    "traceur-runner": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradLyman/cubent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradLyman/cubent/issues"
+  },
+  "homepage": "https://github.com/BradLyman/cubent#readme"
+}
